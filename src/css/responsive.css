@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    .recipe-card {
+        max-width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .recipe-header img {
+        border-radius: 0;
+    }
+
+    .recipe-content {
+        padding: 0 3rem 3rem 3rem;
+    }
+
+    .recipe-title {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .section-nutrition td.nutrition-item {
+        padding-left: 3rem;
+    }
+
+    .section-nutrition td.nutrition-value {
+        text-align: left;
+        padding-right: 2rem;
+    }
+}

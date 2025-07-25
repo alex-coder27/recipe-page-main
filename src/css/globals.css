@@ -45,9 +45,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
     padding: 3rem 0;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,14 +70,4 @@ p {
 .instruction-step {
     margin-bottom: 0.5rem;
     padding-left: 2rem;
-}
-
-.attribution {
-    font-size: 1.1rem;
-    text-align: center;
-    padding: 2rem;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
