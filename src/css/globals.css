@@ -1,0 +1,82 @@
+/* YOUNG SERIF */
+@font-face {
+    font-family: 'Young Serif';
+    src: url('../../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+}
+
+/* OUTFIT */
+@font-face {
+    font-family: 'Outfit';
+    src: url('../../assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../../assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../../assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-outfit);
+    font-size: var(--font-size-paragraph);
+    background-color: var(--color-stone-100); 
+    color: var(--color-stone-600); 
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 3rem 0;
+    max-width: 1440px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-young-serif);
+    color: var(--color-stone-900);
+}
+
+.time-label, .step-label {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-stone-600);
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.time-item,
+.ingredient-item,
+.instruction-step {
+    margin-bottom: 0.5rem;
+    padding-left: 2rem;
+}
+
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

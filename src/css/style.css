@@ -1,0 +1,114 @@
+.recipe-card {
+    max-width: 730px;
+    margin: 0 auto;
+    background-color: var(--color-white);
+    border-radius: 2.5rem;
+    overflow: hidden;
+    padding: 4rem;
+}
+
+.recipe-header {
+    margin-bottom: 3rem;
+}
+
+
+.recipe-header img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 1.2rem;
+}
+
+.recipe-title {
+    font-size: 4rem;
+    font-weight: var(--font-weight-regular);
+    margin-bottom: 1.4rem;
+}
+
+.section-title {
+    color: var(--color-brown-800);
+    font-weight: var(--font-weight-regular);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.section-preparation-time {
+    background-color: var(--color-rose-50);
+    padding: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.section-preparation-time .section-title {
+    color: var(--color-rose-800);
+    font-family: var(--font-outfit);
+    font-weight: var(--font-weight-bold);
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.time-list {
+    color: var(--color-stone-600);
+    list-style-type: disc;
+    padding-left: 1.2rem;
+    margin-left: 1.5rem;
+}
+
+.time-item::marker {
+    color: var(--color-rose-800);
+    font-size: 0.8em;
+}
+
+.ingredient-list {
+    list-style: disc;
+    margin-bottom: 3rem;
+}
+
+.ingredient-item {
+    margin-left: 2.5rem;
+}
+
+.ingredient-item::marker {
+    font-size: 1.3rem;
+}
+
+.section-instructions {
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+    border-top: solid 1px var(--color-stone-150);
+    border-bottom: solid 1px var(--color-stone-150);
+}
+
+.instruction-list {
+    list-style-type: decimal;
+    margin-left: 2.5rem;
+}
+
+.instruction-step::marker {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-brown-800);
+}
+
+.section-nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+.section-nutrition td {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--color-stone-150);
+}
+
+.section-nutrition tr:last-child td {
+    border-bottom: none;
+}
+
+.section-nutrition td.nutrition-item {
+    padding-left: 3rem;
+}
+
+.nutrition-value {
+    color: var(--color-brown-800);
+    font-weight: var(--font-weight-bold);
+}
