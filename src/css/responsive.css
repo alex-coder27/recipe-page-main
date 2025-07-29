@@ -33,7 +33,7 @@
     }
 
     .section-nutrition td.nutrition-value {
-        text-align: in;
+        text-align: left;
         padding-inline-end: 2rem;
     }
 }
