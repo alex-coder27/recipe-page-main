@@ -1,7 +1,8 @@
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     body {
         padding: 0;
     }
+
     .recipe-card {
         max-width: 100%;
         border-radius: 0;
@@ -13,7 +14,9 @@
     }
 
     .recipe-content {
-        padding: 0 3rem 3rem 3rem;
+        padding-inline-end: 3rem;
+        padding-block-end: 3rem;
+        padding-inline-start: 3rem;
     }
 
     .recipe-title {

@@ -46,8 +46,8 @@ body {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    padding-top: 3rem;
-    max-width: 1440px;
+    padding-block-start: 3rem;
+    max-width: 144rem;
     margin: 0 auto;
 }
 
