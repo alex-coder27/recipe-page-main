@@ -1,5 +1,5 @@
 .recipe-card {
-    max-width: 730px;
+    max-width: 73rem;
     margin: 0 auto;
     background-color: var(--color-white);
     border-radius: 2.5rem;
@@ -8,7 +8,7 @@
 }
 
 .recipe-header {
-    margin-bottom: 3rem;
+    margin-block-end: 3rem;
 }
 
 
@@ -22,21 +22,21 @@
 .recipe-title {
     font-size: 4rem;
     font-weight: var(--font-weight-regular);
-    margin-bottom: 1.4rem;
+    margin-block-end: 1.4rem;
 }
 
 .section-title {
     color: var(--color-brown-800);
     font-weight: var(--font-weight-regular);
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-block-end: 1rem;
 }
 
 .section-preparation-time {
     background-color: var(--color-rose-50);
     padding: 2.5rem;
-    border-radius: 10px;
-    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    margin-block-end: 1.5rem;
 }
 
 .section-preparation-time .section-title {
@@ -44,13 +44,13 @@
     font-family: var(--font-outfit);
     font-weight: var(--font-weight-bold);
     font-size: 2rem;
-    margin-bottom: 0.8rem;
+    margin-block-end: 0.8rem;
 }
 
 .time-list {
     color: var(--color-stone-600);
     list-style-type: disc;
-    padding-left: 2.5rem;
+    padding-inline-start: 2.5rem;
 }
 
 .time-item::marker {
@@ -60,8 +60,8 @@
 
 .ingredient-list {
     list-style: disc;
-    padding-left: 2.2rem;
-    margin-bottom: 3rem;
+    padding-inline-start: 2.2rem;
+    margin-block-end: 3rem;
 }
 
 .ingredient-item::marker {
@@ -70,14 +70,14 @@
 
 .section-instructions {
     padding: 3rem 0;
-    margin-bottom: 3rem;
-    border-top: solid 1px var(--color-stone-150);
-    border-bottom: solid 1px var(--color-stone-150);
+    margin-block-end: 3rem;
+    border-block-start: solid 1px var(--color-stone-150);
+    border-block-end: solid 1px var(--color-stone-150);
 }
 
 .instruction-list {
     list-style-type: decimal;
-    padding-left: 2.5rem;
+    padding-inline-start: 2.5rem;
 }
 
 .instruction-step::marker {
@@ -88,20 +88,20 @@
 .section-nutrition table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 1.5rem;
+    margin-block-start: 1.5rem;
 }
 
 .section-nutrition td {
     padding: 0.75rem 0;
-    border-bottom: 1px solid var(--color-stone-150);
+    border-block-end: 1px solid var(--color-stone-150);
 }
 
 .section-nutrition tr:last-child td {
-    border-bottom: none;
+    border-block-end: none;
 }
 
 .section-nutrition td.nutrition-item {
-    padding-left: 3rem;
+    padding-inline-start: 3rem;
 }
 
 .nutrition-value {
