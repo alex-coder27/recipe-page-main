@@ -29,11 +29,11 @@
     }
 
     .section-nutrition td.nutrition-item {
-        padding-left: 3rem;
+        padding-inline-start: 3rem;
     }
 
     .section-nutrition td.nutrition-value {
-        text-align: left;
-        padding-right: 2rem;
+        text-align: in;
+        padding-inline-end: 2rem;
     }
 }

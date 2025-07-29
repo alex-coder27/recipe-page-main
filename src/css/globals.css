@@ -62,12 +62,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    margin-bottom: 1.5rem;
+    margin-block-end: 1.5rem;
 }
 
 .time-item,
 .ingredient-item,
 .instruction-step {
-    margin-bottom: 0.5rem;
-    padding-left: 2rem;
+    margin-block-end: 0.5rem;
+    padding-inline-start: 2rem;
 }
